@@ -1,2 +1,2 @@
-# DALS
-DiscordAklLeaderboardSystem
+# ADR
+AklDiscordRanking
