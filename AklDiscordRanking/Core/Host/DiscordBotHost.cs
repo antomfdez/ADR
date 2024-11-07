@@ -41,7 +41,7 @@ public class DiscordBotHost(
         client.Ready += () =>
         {
             logger.LogInformation("[DiscordClient] DiscordClient Ready.");
-            interactionService.RegisterCommandsGloballyAsync();
+            interactionService.RegisterCommandsToGuildAsync(options.Value.GuildId);
 
             return Task.CompletedTask;
         };
