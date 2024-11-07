@@ -32,7 +32,7 @@ public static class PermissionHandler
     {
         /// <remarks>
         /// So this is C# but with expression statements as a way to handle conditional logic.
-        /// There is less change to mess it up, but it's a bit hard to write when unused because it's unfamiliar.
+        /// There is less chance to mess it up, but it's a bit hard to write when unused because it's unfamiliar.
         /// </remarks>
         public override Task<PreconditionResult> CheckRequirementsAsync(
             IInteractionContext context, ICommandInfo commandInfo,
